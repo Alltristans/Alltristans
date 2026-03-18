@@ -19,37 +19,9 @@
 
 ### 🔭 Expertise Domains
 
-```mermaid
-graph TD
-    EX(["⚙️ Expertise"])
-
-    EX --- DI(["📊 Data Intelligence"])
-    EX --- AE(["🤖 Algorithmic Eng & AI"])
-    EX --- GD(["🎮 Systemic Game Design"])
-    EX --- HC(["🎨 Human-Centric Design"])
-
-    DI --- Python
-    DI --- SQL
-    DI --- ETL
-
-    AE --- PyTorch
-    AE --- LLM
-    AE --- ONNX
-
-    GD --- Unity
-    GD --- Godot
-    GD --- Systems
-
-    HC --- Figma
-    HC --- UX
-    HC --- Research
-
-    style EX fill:#F1EFE8,stroke:#888780,color:#2C2C2A
-    style DI fill:#E6F1FB,stroke:#378ADD,color:#0C447C
-    style AE fill:#E1F5EE,stroke:#1D9E75,color:#085041
-    style GD fill:#FAEEDA,stroke:#BA7517,color:#633806
-    style HC fill:#FBEAF0,stroke:#D4537E,color:#72243E
-```
+<div align="center">
+  <img src="./expertise-graph.svg" alt="Expertise Domains Graph" width="680"/>
+</div>
 ---
 
 ### 🛠️ Technical Toolkit
