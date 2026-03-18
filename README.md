@@ -28,10 +28,10 @@
 
 | Category | Skills |
 | :--- | :--- |
-| **Analysis** | [cite_start]Statistical Modeling, Data Visualization, Market Trends [cite: 13, 55, 56, 66] |
-| **Development** | [cite_start]Python, Java, SMT Solvers, Godot Engine  |
-| **Logic** | [cite_start]Abstract Algebra, Linear Algebra, Cryptography [cite: 55, 61] |
-| **Creative** | [cite_start]UI/UX Research, Prototyping, Infographic Design [cite: 14, 20, 25] |
+| **Analysis** | Statistical Modeling, Data Visualization, Market Trends  |
+| **Development** | Python, Java, SMT Solvers, Godot Engine  |
+| **Logic** | Abstract Algebra, Linear Algebra, Cryptography  |
+| **Creative** | UI/UX Research, Prototyping, Infographic Design  |
 
 ---
 
@@ -41,5 +41,4 @@
 [Email](mailto:alridho.tristan@gmail.com) • [LinkedIn](https://www.linkedin.com/in/alridho.tristan-satriawan)
 
 ---
-$$Logic + Creativity = Innovation$$
 </div>
