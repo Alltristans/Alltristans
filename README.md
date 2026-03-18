@@ -19,14 +19,32 @@
 
 ### 🔭 Expertise Domains
 
-* [cite_start]**Data Intelligence & Automation** [cite: 10, 15, 56]
-    * [cite_start]Extracting patterns from chaos through automated scripts and analytical reasoning[cite: 13, 15].
-* [cite_start]**Algorithmic Engineering & AI** [cite: 55, 75, 76]
-    * [cite_start]Leveraging mathematical logic and machine learning to build intelligent, predictive systems[cite: 41, 55, 73].
-* [cite_start]**Systemic Game Design** [cite: 33, 54]
-    * [cite_start]Architecting balanced economies and engaging mechanics through computational models[cite: 34, 35].
-* [cite_start]**Human-Centric Design** [cite: 18, 19]
-    * [cite_start]Crafting intuitive digital experiences where aesthetics meet functionality[cite: 21, 26, 54].
+<table border="0">
+  <tr>
+    <td width="50%" align="center">
+      <br>
+      <img src="https://img.icons8.com/fluency/48/000000/data-configuration.png"/><br>
+      <b>Data Intelligence & Automation</b> <br><br>
+    </td>
+    <td width="50%" align="center">
+      <br>
+      <img src="https://img.icons8.com/fluency/48/000000/artificial-intelligence.png"/><br>
+      <b>Algorithmic Engineering & AI</b> <br><br>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <br>
+      <img src="https://img.icons8.com/fluency/48/000000/game-controller.png"/><br>
+      <b>Systemic Game Design</b> <br><br>
+    </td>
+    <td width="50%" align="center">
+      <br>
+      <img src="https://img.icons8.com/fluency/48/000000/user-centered-design.png"/><br>
+      <b>Human-Centric Design</b> <br><br>
+    </td>
+  </tr>
+</table>
 
 ---
 
