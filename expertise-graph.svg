@@ -1,62 +1,67 @@
 <svg width="680" height="560" viewBox="0 0 680 560" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .node-label { font-family: sans-serif; font-size: 13px; font-weight: 600; fill: #1a1a1a; }
-      .skill-label { font-family: sans-serif; font-size: 11px; fill: #1a1a1a; }
-      .sub-label { font-family: sans-serif; font-size: 10px; fill: #555; }
+      .node-label { font-family: sans-serif; font-size: 13px; font-weight: 600; }
+      .skill-label { font-family: sans-serif; font-size: 11px; }
+      .sub-label { font-family: sans-serif; font-size: 10px; }
+      .icon { font-family: sans-serif; font-size: 16px; }
     </style>
   </defs>
 
-  <!-- Edges: center → domains -->
+  <!-- Edges: center to domains -->
   <line x1="340" y1="280" x2="172" y2="148" stroke="#aaa" stroke-width="1"/>
   <line x1="340" y1="280" x2="508" y2="148" stroke="#aaa" stroke-width="1"/>
   <line x1="340" y1="280" x2="172" y2="412" stroke="#aaa" stroke-width="1"/>
   <line x1="340" y1="280" x2="508" y2="412" stroke="#aaa" stroke-width="1"/>
 
-  <!-- Edges: domain → skills (blue) -->
+  <!-- Edges: domain to skills (blue) -->
   <line x1="172" y1="130" x2="80" y2="60" stroke="#85B7EB" stroke-width="0.8"/>
   <line x1="172" y1="130" x2="172" y2="48" stroke="#85B7EB" stroke-width="0.8"/>
   <line x1="172" y1="130" x2="264" y2="60" stroke="#85B7EB" stroke-width="0.8"/>
 
-  <!-- Edges: domain → skills (teal) -->
+  <!-- Edges: domain to skills (teal) -->
   <line x1="508" y1="130" x2="416" y2="60" stroke="#5DCAA5" stroke-width="0.8"/>
   <line x1="508" y1="130" x2="508" y2="48" stroke="#5DCAA5" stroke-width="0.8"/>
   <line x1="508" y1="130" x2="600" y2="60" stroke="#5DCAA5" stroke-width="0.8"/>
 
-  <!-- Edges: domain → skills (amber) -->
+  <!-- Edges: domain to skills (amber) -->
   <line x1="172" y1="430" x2="80" y2="500" stroke="#EF9F27" stroke-width="0.8"/>
   <line x1="172" y1="430" x2="172" y2="512" stroke="#EF9F27" stroke-width="0.8"/>
   <line x1="172" y1="430" x2="264" y2="500" stroke="#EF9F27" stroke-width="0.8"/>
 
-  <!-- Edges: domain → skills (pink) -->
+  <!-- Edges: domain to skills (pink) -->
   <line x1="508" y1="430" x2="416" y2="500" stroke="#ED93B1" stroke-width="0.8"/>
   <line x1="508" y1="430" x2="508" y2="512" stroke="#ED93B1" stroke-width="0.8"/>
   <line x1="508" y1="430" x2="600" y2="500" stroke="#ED93B1" stroke-width="0.8"/>
 
   <!-- Center node -->
   <circle cx="340" cy="280" r="46" fill="#F1EFE8" stroke="#888780" stroke-width="1"/>
-  <text x="340" y="274" text-anchor="middle" dominant-baseline="central" class="node-label">Expertise</text>
-  <text x="340" y="292" text-anchor="middle" dominant-baseline="central" class="sub-label">Domains</text>
+  <text x="340" y="272" text-anchor="middle" dominant-baseline="central" class="node-label" fill="#2C2C2A">Expertise</text>
+  <text x="340" y="289" text-anchor="middle" dominant-baseline="central" class="sub-label" fill="#5F5E5A">Domains</text>
 
   <!-- Domain: Data Intelligence (blue) -->
   <circle cx="172" cy="130" r="40" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
-  <text x="172" y="123" text-anchor="middle" dominant-baseline="central" class="node-label" fill="#0C447C">Data</text>
-  <text x="172" y="138" text-anchor="middle" dominant-baseline="central" class="sub-label" fill="#185FA5">Intelligence</text>
+  <text x="172" y="113" text-anchor="middle" dominant-baseline="central" class="icon">&#128202;</text>
+  <text x="172" y="130" text-anchor="middle" dominant-baseline="central" class="node-label" fill="#0C447C">Data</text>
+  <text x="172" y="146" text-anchor="middle" dominant-baseline="central" class="sub-label" fill="#185FA5">Intelligence</text>
 
   <!-- Domain: Algorithmic AI (teal) -->
   <circle cx="508" cy="130" r="40" fill="#E1F5EE" stroke="#1D9E75" stroke-width="1"/>
-  <text x="508" y="123" text-anchor="middle" dominant-baseline="central" class="node-label" fill="#085041">Algorithmic</text>
-  <text x="508" y="138" text-anchor="middle" dominant-baseline="central" class="sub-label" fill="#0F6E56">Eng. &amp; AI</text>
+  <text x="508" y="113" text-anchor="middle" dominant-baseline="central" class="icon">&#129302;</text>
+  <text x="508" y="130" text-anchor="middle" dominant-baseline="central" class="node-label" fill="#085041">Algorithmic</text>
+  <text x="508" y="146" text-anchor="middle" dominant-baseline="central" class="sub-label" fill="#0F6E56">Eng. &amp; AI</text>
 
   <!-- Domain: Game Design (amber) -->
   <circle cx="172" cy="430" r="40" fill="#FAEEDA" stroke="#BA7517" stroke-width="1"/>
-  <text x="172" y="423" text-anchor="middle" dominant-baseline="central" class="node-label" fill="#633806">Game</text>
-  <text x="172" y="438" text-anchor="middle" dominant-baseline="central" class="sub-label" fill="#854F0B">Design</text>
+  <text x="172" y="413" text-anchor="middle" dominant-baseline="central" class="icon">&#127918;</text>
+  <text x="172" y="430" text-anchor="middle" dominant-baseline="central" class="node-label" fill="#633806">Game</text>
+  <text x="172" y="446" text-anchor="middle" dominant-baseline="central" class="sub-label" fill="#854F0B">Design</text>
 
   <!-- Domain: Human-Centric (pink) -->
   <circle cx="508" cy="430" r="40" fill="#FBEAF0" stroke="#D4537E" stroke-width="1"/>
-  <text x="508" y="423" text-anchor="middle" dominant-baseline="central" class="node-label" fill="#72243E">Human-</text>
-  <text x="508" y="438" text-anchor="middle" dominant-baseline="central" class="sub-label" fill="#993556">Centric</text>
+  <text x="508" y="413" text-anchor="middle" dominant-baseline="central" class="icon">&#129782;</text>
+  <text x="508" y="430" text-anchor="middle" dominant-baseline="central" class="node-label" fill="#72243E">Human-</text>
+  <text x="508" y="446" text-anchor="middle" dominant-baseline="central" class="sub-label" fill="#993556">Centric</text>
 
   <!-- Skill nodes: blue -->
   <circle cx="80" cy="60" r="22" fill="#B5D4F4" stroke="#378ADD" stroke-width="0.8"/>
@@ -72,7 +77,7 @@
   <circle cx="508" cy="48" r="22" fill="#9FE1CB" stroke="#1D9E75" stroke-width="0.8"/>
   <text x="508" y="48" text-anchor="middle" dominant-baseline="central" class="skill-label" fill="#085041">LLM</text>
   <circle cx="600" cy="60" r="22" fill="#9FE1CB" stroke="#1D9E75" stroke-width="0.8"/>
-  <text x="600" y="60" text-anchor="middle" dominant-baseline="central" class="skill-label" fill="#085041">ONNX</text>
+  <text x="600" y="60" text-anchor="middle" dominant-baseline="central" class="skill-label" fill="#085041">TensorFlow</text>
 
   <!-- Skill nodes: amber -->
   <circle cx="80" cy="500" r="22" fill="#FAC775" stroke="#BA7517" stroke-width="0.8"/>
